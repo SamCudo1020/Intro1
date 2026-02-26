@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image 
 
 st.title("Esta es mi primera app en la nube")
 
