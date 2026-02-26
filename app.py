@@ -20,4 +20,14 @@ with col1:
   st.write("nose jaja")
   resp =st.checkbox('Estoy deacuerdo')
   if resp:
-    st.write('corecto!')
+    st.write('correcto!')
+
+with col2:
+  st.subheader("esta es la segunda columna")
+  modo = st.radio("Que Modalidad es la principal")
+  if modo == "visual":
+    st.write("1")
+  if modo == "auditiva":
+    st.write("2")
+  if modo == "tactil":
+    st.write("3")
